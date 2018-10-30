@@ -19,7 +19,8 @@ body {
 }
 
 h1 {
-    background: white url("../images/logo.png") no-repeat top center;
+    background: white url("../images/logo2.svg") no-repeat top center;
+    background-size: auto 24.7rem;
 
     margin: 0;
     padding: 16.18rem 0 0;
