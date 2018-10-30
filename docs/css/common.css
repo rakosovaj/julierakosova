@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-size: calc(14px + 0.1vh + 0.1vw);
+}
+
+body {
+    background: white;
+
+    font-family: Arial, sans-serif;
+    line-height: 1.618rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background: white url("../images/logo.png") no-repeat top center;
+
+    margin: 0;
+    padding: 16.18rem 0 0;
+    font-weight: normal;
+    color: #00222b;
+
+    text-align: center;
+}
+h1 > span:nth-child(1) {
+    font-size: 1.75rem;
+}
+h1 > span:nth-child(3) {
+    font-size: 1.25rem;
+}
