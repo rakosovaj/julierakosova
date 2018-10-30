@@ -14,6 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-bottom: 1.618rem;
 }
 
 h1 {
@@ -36,4 +38,14 @@ h1 > span:nth-child(3) {
 div {
     margin: 1.618rem 0 0;
 
+}
+
+a[href^=tel], a[href^=mailto] {
+
+    color: inherit;
+    text-decoration: inherit;
+}
+a {
+    color: #08a;
+    font-weight: bold;
 }
