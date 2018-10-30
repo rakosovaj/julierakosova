@@ -29,15 +29,17 @@ h1 {
 
     text-align: center;
 }
+
 h1 > span:nth-child(1) {
     font-size: 1.75rem;
 }
+
 h1 > span:nth-child(3) {
     font-size: 1.25rem;
 }
 
 div {
-    margin: 1.618rem 0 0;
+    margin: calc(2 * 1.618rem) 0 0;
 
 }
 
@@ -46,6 +48,7 @@ a[href^=tel], a[href^=mailto] {
     color: inherit;
     text-decoration: inherit;
 }
+
 a {
     color: #08a;
     font-weight: bold;
