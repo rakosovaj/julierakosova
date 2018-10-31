@@ -44,15 +44,14 @@ div {
 
 }
 
-a[href^=tel], a[href^=mailto] {
-
-    color: inherit;
-    text-decoration: inherit;
-}
-
 a[href] {
     color: #08a;
     font-weight: bold;
+}
+
+a[href^=tel], a[href^=mailto] {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 address {
