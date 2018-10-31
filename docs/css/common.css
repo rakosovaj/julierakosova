@@ -23,7 +23,7 @@ h1 {
     background: white url("../images/logo2.svg") no-repeat top center;
     background-size: auto 24.7rem;
 
-    margin: 0;
+    margin: 0 2.427rem;
     padding: 16.18rem 0 0;
     font-weight: normal;
     color: #00222b;
@@ -57,4 +57,5 @@ a {
 
 address {
     font-style: italic;
+    margin: 0 1.618rem;
 }
