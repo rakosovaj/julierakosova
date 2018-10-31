@@ -54,3 +54,7 @@ a {
     color: #08a;
     font-weight: bold;
 }
+
+address {
+    font-style: italic;
+}
