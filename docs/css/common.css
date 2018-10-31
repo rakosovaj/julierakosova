@@ -50,7 +50,7 @@ a[href^=tel], a[href^=mailto] {
     text-decoration: inherit;
 }
 
-a {
+a[href] {
     color: #08a;
     font-weight: bold;
 }
