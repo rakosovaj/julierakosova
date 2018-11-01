@@ -44,7 +44,7 @@ div {
 
 }
 
-a[href] {
+a {
     color: #08a;
     font-weight: bold;
 }
